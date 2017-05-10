@@ -22,9 +22,9 @@ If you run the Screen Sizes Simulator on an iPad you can run your app in all iPh
 Please check the demo project if you are in doubt.
 
 1. Copy the "Screen Sizes" folder into your project.
-2. Locate your Initial View Controller on your project storyboard and set its Storyboard ID as SwipeViewController on the Identity Inspector.
-3. Open the SizesSimulator storyboard and make sure the Storyboard reference block is pointing to your Main storyboard (unless you changed your main storyboard name the default value should suffice.
-4. Open your project target on the General tab and set Main Interface as SizesSimulator.
+2. Locate your Initial View Controller on your project storyboard and set its Storyboard ID as "SwipeViewController" on the Identity Inspector.
+3. Open the SizesSimulator storyboard and make sure the Storyboard reference block is pointing to your Main storyboard (unless you changed your main storyboard name the default value should suffice).
+4. Open your project target on the General tab and set Main Interface as "SizesSimulator".
 5. Run your project on a device or the simulator and everything should work.
 
 You must remember to change your Main Interface back to your main storyboard when releasing your app to the AppStore. If you feel bold, you can create a new target specifically for the Screen Sizes Simulator instead of changing your main target Main Interface. Check the demo app for an example.
@@ -37,7 +37,7 @@ You can select four different iPhone sizes: iPhone4S, iPhone5/SE, iPhone6S/7S, i
 You can also select four zoom levels: 1x, 2x, fit and fill.
 
 * 1x shows the normal screen size. You should use this when running the app on a device larger than the screen you want to show (for example, running the iPhone5S screen on an iPhone6S).
-* 2x shows double the screen size. This actually is only useful if running your app on an iPad. It is similar to the zoom option available when you run an iPhone (non-universal) app on iPad.
+* 2x shows double the screen size. This actually is only useful if you're running your app on an iPad. It is similar to the zoom option available when you run an iPhone (non-universal) app on iPad.
 * fit will apply a zoom level that fits the app on the current phone screen. This is the ideal to use when displaying larger screens than your iPhone. For example, for showing the iPhone6S size on an iPhone4S device.
 * fill will apply a zoom level that fills the phone screen with the selected display size.
 
