@@ -8,18 +8,55 @@
 
 import UIKit
 
+enum PhotosCategory {
+    case frogs, mammals, birds
+}
+
 class ViewController: UIViewController {
 
+    var selectedCategory: PhotosCategory = .mammals {
+        didSet {
+            updateUI()
+        }
+    }
+    
+    @IBOutlet weak var photo1ImageView: UIImageView!
+    @IBOutlet weak var photo2ImageView: UIImageView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        updateUI()
+    }
+    
+    func updateUI() {
+        switch selectedCategory {
+        case .frogs:
+            photo1ImageView.image = #imageLiteral(resourceName: "frog1")
+            photo2ImageView.image = #imageLiteral(resourceName: "frog2")
+        case .mammals:
+            photo1ImageView.image = #imageLiteral(resourceName: "mammal1")
+            photo2ImageView.image = #imageLiteral(resourceName: "mammal2")
+        case .birds:
+            photo1ImageView.image = #imageLiteral(resourceName: "bird1")
+            photo2ImageView.image = #imageLiteral(resourceName: "bird2")
+        }
+    }
+    
+    @IBAction func swapButtonTap(_ sender: UIButton) {
+        let tempImage = photo1ImageView.image
+        photo1ImageView.image = photo2ImageView.image
+        photo2ImageView.image = tempImage
+    }
+    
+    @IBAction func frogsButtonTap(_ sender: UIButton) {
+        selectedCategory = .frogs
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func mammalsButtonTap(_ sender: UIButton) {
+        selectedCategory = .mammals
     }
-
-
+    
+    @IBAction func birdsButtonTap(_ sender: UIButton) {
+        selectedCategory = .birds
+    }
 }
 

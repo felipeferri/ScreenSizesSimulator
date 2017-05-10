@@ -12,20 +12,43 @@
 		55CD6E761EC35B3500214D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E741EC35B3500214D7F /* Main.storyboard */; };
 		55CD6E781EC35B3500214D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E771EC35B3500214D7F /* Assets.xcassets */; };
 		55CD6E7B1EC35B3500214D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E791EC35B3500214D7F /* LaunchScreen.storyboard */; };
+		55CD6E831EC35F6500214D7F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD6E821EC35F6500214D7F /* Extensions.swift */; };
+		55CD6E871EC35FEE00214D7F /* SizesSimulator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E851EC35FEE00214D7F /* SizesSimulator.storyboard */; };
+		55CD6E881EC35FEE00214D7F /* SizesSimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD6E861EC35FEE00214D7F /* SizesSimulatorViewController.swift */; };
+		55CD6E8B1EC3616700214D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD6E721EC35B3500214D7F /* ViewController.swift */; };
+		55CD6E8C1EC3616700214D7F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD6E821EC35F6500214D7F /* Extensions.swift */; };
+		55CD6E8D1EC3616700214D7F /* SizesSimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD6E861EC35FEE00214D7F /* SizesSimulatorViewController.swift */; };
+		55CD6E8E1EC3616700214D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD6E701EC35B3500214D7F /* AppDelegate.swift */; };
+		55CD6E911EC3616700214D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E791EC35B3500214D7F /* LaunchScreen.storyboard */; };
+		55CD6E921EC3616700214D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E771EC35B3500214D7F /* Assets.xcassets */; };
+		55CD6E931EC3616700214D7F /* SizesSimulator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E851EC35FEE00214D7F /* SizesSimulator.storyboard */; };
+		55CD6E941EC3616700214D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD6E741EC35B3500214D7F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55CD6E6D1EC35B3500214D7F /* Screen Sizes Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Sizes Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CD6E6D1EC35B3500214D7F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD6E701EC35B3500214D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CD6E721EC35B3500214D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55CD6E751EC35B3500214D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55CD6E771EC35B3500214D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CD6E7A1EC35B3500214D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CD6E7C1EC35B3500214D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CD6E821EC35F6500214D7F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		55CD6E851EC35FEE00214D7F /* SizesSimulator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizesSimulator.storyboard; sourceTree = "<group>"; };
+		55CD6E861EC35FEE00214D7F /* SizesSimulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizesSimulatorViewController.swift; sourceTree = "<group>"; };
+		55CD6E981EC3616700214D7F /* Screen Sizes Simulator copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Sizes Simulator copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CD6E991EC3616700214D7F /* Screen Sizes Simulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Screen Sizes Simulator-Info.plist"; path = "/Users/felipe/Documents/Projetos/Screen Sizes Simulator/Screen Sizes Simulator/Screen Sizes Simulator-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		55CD6E6A1EC35B3500214D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CD6E8F1EC3616700214D7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,7 +69,8 @@
 		55CD6E6E1EC35B3500214D7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55CD6E6D1EC35B3500214D7F /* Screen Sizes Simulator.app */,
+				55CD6E6D1EC35B3500214D7F /* Demo.app */,
+				55CD6E981EC3616700214D7F /* Screen Sizes Simulator copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +78,34 @@
 		55CD6E6F1EC35B3500214D7F /* Screen Sizes Simulator */ = {
 			isa = PBXGroup;
 			children = (
+				55CD6E841EC35FD600214D7F /* Screen Sizes */,
 				55CD6E701EC35B3500214D7F /* AppDelegate.swift */,
+				55CD6E821EC35F6500214D7F /* Extensions.swift */,
 				55CD6E721EC35B3500214D7F /* ViewController.swift */,
 				55CD6E741EC35B3500214D7F /* Main.storyboard */,
 				55CD6E771EC35B3500214D7F /* Assets.xcassets */,
 				55CD6E791EC35B3500214D7F /* LaunchScreen.storyboard */,
 				55CD6E7C1EC35B3500214D7F /* Info.plist */,
+				55CD6E991EC3616700214D7F /* Screen Sizes Simulator-Info.plist */,
 			);
 			path = "Screen Sizes Simulator";
+			sourceTree = "<group>";
+		};
+		55CD6E841EC35FD600214D7F /* Screen Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				55CD6E851EC35FEE00214D7F /* SizesSimulator.storyboard */,
+				55CD6E861EC35FEE00214D7F /* SizesSimulatorViewController.swift */,
+			);
+			name = "Screen Sizes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55CD6E6C1EC35B3500214D7F /* Screen Sizes Simulator */ = {
+		55CD6E6C1EC35B3500214D7F /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55CD6E7F1EC35B3500214D7F /* Build configuration list for PBXNativeTarget "Screen Sizes Simulator" */;
+			buildConfigurationList = 55CD6E7F1EC35B3500214D7F /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				55CD6E691EC35B3500214D7F /* Sources */,
 				55CD6E6A1EC35B3500214D7F /* Frameworks */,
@@ -79,9 +115,26 @@
 			);
 			dependencies = (
 			);
-			name = "Screen Sizes Simulator";
+			name = Demo;
 			productName = "Screen Sizes Simulator";
-			productReference = 55CD6E6D1EC35B3500214D7F /* Screen Sizes Simulator.app */;
+			productReference = 55CD6E6D1EC35B3500214D7F /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CD6E891EC3616700214D7F /* Screen Sizes Simulator copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CD6E951EC3616700214D7F /* Build configuration list for PBXNativeTarget "Screen Sizes Simulator copy" */;
+			buildPhases = (
+				55CD6E8A1EC3616700214D7F /* Sources */,
+				55CD6E8F1EC3616700214D7F /* Frameworks */,
+				55CD6E901EC3616700214D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Screen Sizes Simulator copy";
+			productName = "Screen Sizes Simulator";
+			productReference = 55CD6E981EC3616700214D7F /* Screen Sizes Simulator copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,8 +149,11 @@
 				TargetAttributes = {
 					55CD6E6C1EC35B3500214D7F = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = RENG22TQ66;
+						DevelopmentTeam = ZT28PLWG78;
 						ProvisioningStyle = Automatic;
+					};
+					55CD6E891EC3616700214D7F = {
+						DevelopmentTeam = ZT28PLWG78;
 					};
 				};
 			};
@@ -114,7 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55CD6E6C1EC35B3500214D7F /* Screen Sizes Simulator */,
+				55CD6E6C1EC35B3500214D7F /* Demo */,
+				55CD6E891EC3616700214D7F /* Screen Sizes Simulator copy */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +183,19 @@
 			files = (
 				55CD6E7B1EC35B3500214D7F /* LaunchScreen.storyboard in Resources */,
 				55CD6E781EC35B3500214D7F /* Assets.xcassets in Resources */,
+				55CD6E871EC35FEE00214D7F /* SizesSimulator.storyboard in Resources */,
 				55CD6E761EC35B3500214D7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CD6E901EC3616700214D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CD6E911EC3616700214D7F /* LaunchScreen.storyboard in Resources */,
+				55CD6E921EC3616700214D7F /* Assets.xcassets in Resources */,
+				55CD6E931EC3616700214D7F /* SizesSimulator.storyboard in Resources */,
+				55CD6E941EC3616700214D7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +207,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CD6E731EC35B3500214D7F /* ViewController.swift in Sources */,
+				55CD6E831EC35F6500214D7F /* Extensions.swift in Sources */,
+				55CD6E881EC35FEE00214D7F /* SizesSimulatorViewController.swift in Sources */,
 				55CD6E711EC35B3500214D7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CD6E8A1EC3616700214D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CD6E8B1EC3616700214D7F /* ViewController.swift in Sources */,
+				55CD6E8C1EC3616700214D7F /* Extensions.swift in Sources */,
+				55CD6E8D1EC3616700214D7F /* SizesSimulatorViewController.swift in Sources */,
+				55CD6E8E1EC3616700214D7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +345,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RENG22TQ66;
+				DEVELOPMENT_TEAM = ZT28PLWG78;
 				INFOPLIST_FILE = "Screen Sizes Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sailscooter.Screen-Sizes-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,8 +359,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RENG22TQ66;
+				DEVELOPMENT_TEAM = ZT28PLWG78;
 				INFOPLIST_FILE = "Screen Sizes Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailscooter.Screen-Sizes-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		55CD6E961EC3616700214D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT28PLWG78;
+				INFOPLIST_FILE = "$(SRCROOT)/Screen Sizes Simulator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailscooter.Screen-Sizes-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		55CD6E971EC3616700214D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT28PLWG78;
+				INFOPLIST_FILE = "$(SRCROOT)/Screen Sizes Simulator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sailscooter.Screen-Sizes-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,13 +409,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55CD6E7F1EC35B3500214D7F /* Build configuration list for PBXNativeTarget "Screen Sizes Simulator" */ = {
+		55CD6E7F1EC35B3500214D7F /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55CD6E801EC35B3500214D7F /* Debug */,
 				55CD6E811EC35B3500214D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		55CD6E951EC3616700214D7F /* Build configuration list for PBXNativeTarget "Screen Sizes Simulator copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CD6E961EC3616700214D7F /* Debug */,
+				55CD6E971EC3616700214D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

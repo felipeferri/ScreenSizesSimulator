@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5re-FM-f0U">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sizes Simulator View Controller-->
+        <scene sceneID="ftP-yT-AnB">
+            <objects>
+                <viewController definesPresentationContext="YES" id="5re-FM-f0U" customClass="SizesSimulatorViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fot-af-Xg0"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Cv-Um-DQQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="78T-mb-Phm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sdV-Di-8r4">
+                                <rect key="frame" x="27" y="84" width="360" height="568"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="0G0-Se-OBw"/>
+                                    <constraint firstAttribute="height" constant="568" id="ybP-QI-PUU"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="OGV-aZ-2Ia" kind="embed" id="2Pd-r8-Idp"/>
+                                </connections>
+                            </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8dA-lc-Fab">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="174"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="TIl-Vg-vbV">
+                                        <rect key="frame" x="8" y="20" width="398" height="134"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3Jw-mf-DhN">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="28"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="iPhone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AvA-cc-uIA">
+                                                        <rect key="frame" x="0.0" y="0.0" width="52.666666666666664" height="28"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KqK-CJ-uFB">
+                                                        <rect key="frame" x="72.666666666666657" y="0.0" width="325.33333333333337" height="29"/>
+                                                        <segments>
+                                                            <segment title="4S"/>
+                                                            <segment title="5S/SE"/>
+                                                            <segment title="6S/7S"/>
+                                                            <segment title="6S+/7S+"/>
+                                                        </segments>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <connections>
+                                                            <action selector="iPhoneModelSegmentedControlValueChanged:" destination="5re-FM-f0U" eventType="valueChanged" id="2wk-ip-u6n"/>
+                                                        </connections>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0l-6u-mT2">
+                                                <rect key="frame" x="0.0" y="58" width="398" height="28"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Zoom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nNe-UV-N1M">
+                                                        <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="28"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nFR-IT-voN">
+                                                        <rect key="frame" x="72.666666666666657" y="0.0" width="325.33333333333337" height="29"/>
+                                                        <segments>
+                                                            <segment title="1x"/>
+                                                            <segment title="2x"/>
+                                                            <segment title="Fit"/>
+                                                            <segment title="Fill"/>
+                                                        </segments>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <connections>
+                                                            <action selector="zoomLevelSegmentedControlValueChanged:" destination="5re-FM-f0U" eventType="valueChanged" id="lJw-cE-3Rw"/>
+                                                        </connections>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to hide; shake device to show again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWN-yS-f7o">
+                                                <rect key="frame" x="0.0" y="116" width="398" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="KqK-CJ-uFB" firstAttribute="leading" secondItem="nFR-IT-voN" secondAttribute="leading" id="J9m-Qx-KzF"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="0.79409246575342463" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="TIl-Vg-vbV" secondAttribute="bottom" constant="20" id="Arh-mw-lqx"/>
+                                    <constraint firstAttribute="trailing" secondItem="TIl-Vg-vbV" secondAttribute="trailing" constant="8" id="Eiq-sk-u15"/>
+                                    <constraint firstItem="TIl-Vg-vbV" firstAttribute="leading" secondItem="8dA-lc-Fab" secondAttribute="leading" constant="8" id="Oym-eg-ZoS"/>
+                                    <constraint firstItem="TIl-Vg-vbV" firstAttribute="top" secondItem="8dA-lc-Fab" secondAttribute="top" constant="20" id="lYN-Yd-bel"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QHo-Cx-rdS" appends="YES" id="lzN-MJ-xAD"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8dA-lc-Fab" firstAttribute="top" secondItem="78T-mb-Phm" secondAttribute="top" id="GKV-Dg-8Cb"/>
+                            <constraint firstItem="8dA-lc-Fab" firstAttribute="leading" secondItem="78T-mb-Phm" secondAttribute="leading" id="nzh-xA-mki"/>
+                            <constraint firstItem="sdV-Di-8r4" firstAttribute="centerX" secondItem="78T-mb-Phm" secondAttribute="centerX" id="pBX-Sc-bdQ"/>
+                            <constraint firstAttribute="trailing" secondItem="8dA-lc-Fab" secondAttribute="trailing" id="uyo-Qi-uou"/>
+                            <constraint firstItem="sdV-Di-8r4" firstAttribute="centerY" secondItem="78T-mb-Phm" secondAttribute="centerY" id="y9c-qU-nPY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerHeightLayoutConstraint" destination="ybP-QI-PUU" id="HKo-xw-bdM"/>
+                        <outlet property="containerView" destination="sdV-Di-8r4" id="Pyk-CB-Huv"/>
+                        <outlet property="containerWidthLayoutConstraint" destination="0G0-Se-OBw" id="njl-o7-bDe"/>
+                        <outlet property="controlPanelView" destination="8dA-lc-Fab" id="BmU-2O-z5h"/>
+                        <outlet property="iPhoneModelSegmentedControl" destination="KqK-CJ-uFB" id="gUf-Bv-gvS"/>
+                        <outlet property="zoomLevelSegmentedControl" destination="nFR-IT-voN" id="jSR-Kf-oVR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pzT-3B-jLD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="QHo-Cx-rdS">
+                    <connections>
+                        <action selector="controlPanelTap:" destination="5re-FM-f0U" id="bj6-io-tsb"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="-18.75"/>
+        </scene>
+        <!--SwipeViewController-->
+        <scene sceneID="xhY-o7-Poq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="SwipeViewController" id="OGV-aZ-2Ia" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9lI-1Q-lwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846" y="-18"/>
+        </scene>
+    </scenes>
+</document>
