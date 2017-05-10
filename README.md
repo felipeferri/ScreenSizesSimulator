@@ -5,7 +5,7 @@ Do you test for different screen sizes when developing your iOS apps? You know y
 
 Running the same app on different simulators can take too long, and having several devices is inviable for many of us. That's why the Screen Sizes Simulator can be a good idea for you.
 
-Screen Sizes Simulator is a storyboard template and a neat control painel that allow you to run your app on screens mimicking all current iPhone models sizes. See below what I mean. All screenshots were obtained by running the Demo app included in this repo on the iPhone6 simulator.
+Screen Sizes Simulator is a storyboard template and a neat control panel that allow you to run your app on screens mimicking all current iPhone models sizes. See below what I mean. All screenshots were obtained by running the Demo app included in this repo on the iPhone6 simulator.
 
 iPhone6 regular size             |  iPhone5 size on iPhone6
 :-------------------------:|:-------------------------:
