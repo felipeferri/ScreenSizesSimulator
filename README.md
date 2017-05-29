@@ -31,6 +31,9 @@ Please check the demo project if you are in doubt.
 
 You must remember to change your Main Interface back to your main storyboard when releasing your app to the AppStore. If you feel bold, you can create a new target specifically for the Screen Sizes Simulator instead of changing your main target Main Interface. Check the demo app for an example.
 
+## Dealing with modal view controllers
+By default new modal controllers will be pushed over the full app screen, but what we really need is that they're presented just over the simulator view. In order to allow this please make sure that all modal segues have "Over Current Context" set as Presentation type.
+
 ## Using the Screen Sizes Simulator
 The Screen Sizes Simulator has a small control panel on top. If you tap on it it will disappear; if you shake your phone it will appear again.
 
